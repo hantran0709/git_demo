@@ -3,6 +3,7 @@ package files;
 public class PayLoad {
 
 	public static String addPlace() {
+		System.out.println("test add place");
 		return "{\r\n"
 				+ "  \"location\": {\r\n"
 				+ "    \"lat\": -38.383494,\r\n"
